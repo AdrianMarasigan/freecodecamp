@@ -8,23 +8,18 @@ Certificate can be found: https://freecodecamp.org/certification/fcce82ce743-f3f
 
 1. **Tribute Page**
    - Description: Create a tribute page for someone you admire.
-   - File: `tribute-page/index.html`
 
 2. **Survey Form**
    - Description: Build a survey form with HTML and CSS.
-   - File: `survey-form/index.html`
 
 3. **Product Landing Page**
    - Description: Develop a product landing page with a focus on design and usability.
-   - File: `product-landing-page/index.html`
 
 4. **Technical Documentation Page**
    - Description: Create a technical documentation page using appropriate HTML tags.
-   - File: `technical-documentation/index.html`
 
 5. **Personal Portfolio**
    - Description: Build a personal portfolio showcasing your projects.
-   - File: `personal-portfolio/index.html`
 
 ## How to View
 
