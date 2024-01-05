@@ -28,7 +28,6 @@ Certificate can be found: IN PROGRESS
 ## Technologies Used
 
 - Python
-- 
 
 ## Author
 
