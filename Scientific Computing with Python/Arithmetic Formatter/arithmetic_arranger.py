@@ -45,7 +45,8 @@ def arithmetic_arranger(problems, results=False):
             top += spacing + operands[0] + "    "
             bottom += operands[1] + " " + operands[2] + "    "
             dashes += b4_spaces * "-" + "    "
-            answer += " " * (b4_spaces - problem_answer_length) + str(problem_answer) + "    "
+            answer += " " * (b4_spaces - problem_answer_length) + \
+                str(problem_answer) + "    "
 
         # Continue similar formatting for other cases
         if len(operands[0]) == len(operands[2]):
@@ -65,7 +66,8 @@ def arithmetic_arranger(problems, results=False):
             top += "  " + operands[0] + "    "
             bottom += operands[1] + spacing + operands[2] + "    "
             dashes += (len(operands[0]) + 2) * "-" + "    "
-            answer += ((len(operands[0]) + 2) - problem_answer_length) * " " + str(problem_answer) + "    "
+            answer += ((len(operands[0]) + 2) - problem_answer_length) * \
+                " " + str(problem_answer) + "    "
 
     # Remove trailing whitespaces and join lines
     top = top.rstrip()
