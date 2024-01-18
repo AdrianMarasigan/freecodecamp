@@ -4,7 +4,6 @@ def arithmetic_arranger(problems, results=False):
     bottom = ""
     dashes = ""
     answer = ""
-
     # Check if there are more than 5 problems, return an error if true
     if len(problems) > 5:
         return "Error: Too many problems."
