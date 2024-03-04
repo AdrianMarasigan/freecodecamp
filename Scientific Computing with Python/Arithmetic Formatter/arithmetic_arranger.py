@@ -12,7 +12,7 @@ def arithmetic_arranger(problems, results=False):
     for problem in problems:
         # Split the problem into operands and operator
         operands = problem.split(' ')
-
+ 
         # Check if operands are valid digits
         if not (operands[0].isdigit() and operands[2].isdigit()):
             return "Error: Numbers must only contain digits."
