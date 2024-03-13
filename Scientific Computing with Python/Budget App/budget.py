@@ -3,7 +3,7 @@ class Category:
         # Constructor initializes a Category instance with a given name and an empty ledger
         self.name = name
         self.ledger = []
-
+ 
     def deposit(self, amount, description=None):
         # Method to add a deposit entry to the ledger
         self.ledger.append(
